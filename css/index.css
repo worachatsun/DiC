@@ -1,0 +1,15 @@
+.news {
+  height: 200px;
+  background-color: #fce8e7;
+  padding: 20px;
+  overflow: scroll;
+  line-height: 2;
+  overflow-x: hidden;
+}
+
+.banner img {
+  width: 100%;
+}
+.banner {
+  margin-top: 20px;
+}

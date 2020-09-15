@@ -1,0 +1,13 @@
+.lable {
+  width: 150px;
+  text-align: right;
+  font-size: 1.5rem;
+}
+
+tr {
+  height: 7rem;
+}
+
+.input {
+  width: 480px;
+}
