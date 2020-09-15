@@ -6,35 +6,63 @@ body {
   text-align: center;
 }
 .main-header {
-  padding-bottom: 15%;
+  padding: 7.5% 0 7.5% 0;
   width: 100%;
   background-size: cover;
-  background-image: url('./images/header.jpg');
+  background-image: url('../images/header.jpg');
   background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 header {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #333333;
 }
-header ul {
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
-header ul a {
-}
-header li {
-}
-header ul:after {
+
+nav a {
+  color: inherit;
+  text-decoration: none;
+  margin: 10px;
+  color: white;
 }
 
 .main-header img {
+  width: 30%;
 }
 .about {
+  margin: 5% 0 5% 0;
 }
 
 .function {
+  background: #d3d3d3;
+  padding: 5% 0 10% 0;
 }
+
 .function-images {
-}
-.function-image {
+  display: flex;
+  justify-content: space-around;
+  margin: 5% 20% 0 20%;
 }
 
 footer {
+  background: #2c3e4f;
+  color: white;
+  padding-top: 30px;
+}
+
+footer p {
+  margin: 0;
+  padding: 10px 0 10px 0;
 }
