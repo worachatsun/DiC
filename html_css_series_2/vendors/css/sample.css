@@ -1,0 +1,40 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  text-align: center;
+}
+.main-header {
+  padding-bottom: 15%;
+  width: 100%;
+  background-size: cover;
+  background-image: url('./images/header.jpg');
+  background-attachment: fixed;
+}
+
+header {
+}
+header ul {
+}
+header ul a {
+}
+header li {
+}
+header ul:after {
+}
+
+.main-header img {
+}
+.about {
+}
+
+.function {
+}
+.function-images {
+}
+.function-image {
+}
+
+footer {
+}
