@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/contact.css" />
     <title>株式会社DIVE</title>
@@ -24,31 +25,34 @@
         <a href="contact.html"><div class="menu">お問い合わせ</div></a>
       </aside>
       <article>
-        <table>
-          <tbody>
-            <tr>
-              <td class="lable">Name:</td>
-              <td><input class="input" /></td>
-            </tr>
-            <tr>
-              <td class="lable">Sex:</td>
-              <td>
-                <input type="radio" name="sex" />Male<input
-                  type="radio"
-                  name="sex"
-                />Female
-              </td>
-            </tr>
-            <tr>
-              <td class="lable">Tel:</td>
-              <td><input class="input" /></td>
-            </tr>
-            <tr>
-              <td class="lable">Contact:</td>
-              <td><textarea class="input"></textarea></td>
-            </tr>
-          </tbody>
-        </table>
+        <form>
+          <table>
+            <tbody>
+              <tr>
+                <td class="lable">Name:</td>
+                <td><input class="input" /></td>
+              </tr>
+              <tr>
+                <td class="lable">Sex:</td>
+                <td>
+                  <input type="radio" name="sex" />Male<input
+                    type="radio"
+                    name="sex"
+                  />Female
+                </td>
+              </tr>
+              <tr>
+                <td class="lable">Tel:</td>
+                <td><input class="input" /></td>
+              </tr>
+              <tr>
+                <td class="lable">Contact:</td>
+                <td><textarea class="input"></textarea></td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="submit"><input type="submit" /></div>
+        </form>
       </article>
     </div>
     <footer class="footer">

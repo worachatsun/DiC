@@ -11,3 +11,18 @@ tr {
 .input {
   width: 480px;
 }
+
+.submit {
+  display: flex;
+  justify-content: center;
+}
+
+.submit input {
+  border: 0;
+  padding: 10px;
+  background: coral;
+}
+
+.submit :hover {
+  opacity: 0.6;
+}
